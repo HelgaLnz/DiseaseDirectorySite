@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Справочник заболеваний - подробная информация о различных заболеваниях, их симптомах и лечении.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Справочник заболеваний</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <ul class="nav color-secondary-variant font-secondary-color">
+      <li class="nav-item logo-name-scale-zoom">
+        <a class="nav-link active navbar-brand" aria-current="page" href="index.html">
+          <div class="container-fluid">
+            <img class="icon" src="img/icons8-plus-48.png" alt="Disease Directory" width="42" height="42">Справочник заболеваний</div>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle font-secondary-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Страницы
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="about.html">О сайте</a></li>
+          <li><a class="dropdown-item" href="#">Список заболеваний</a></li>
+          <li><a class="dropdown-item" href="#">Список разделов</a></li>
+          <li><a class="dropdown-item" href="#">Скачать Справочник Заболеваний</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Войти как администратор</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+      <div id="headerwrap" class="landing-page-bd ">
+          <div id="container-with-img-text" class="container-fluid d-sm-inline-flex align-items-center">
+            <div class="col align-self-center">
+              <img id="img-landing" src="/img/3855249.png" class="img-fluid min-width">
+            </div>
+          <div class="col padding-40">
+            <div class="font-secondary-variant-color"> 
+              <div class="row">
+                <h1 class="col">Справочник Заболеваний -</h1>
+                <h1 class="col text-right">быстрый поиск информации!</h1>
+                <h3>Информационный портал Справочник Заболеваний предоставляет информацию о различных заболеваниях, их симптомах, причинах, методах лечения и профилактике.</h3>
+              </div>
+          </div>
+          </div>
+        </div>
+        <form class="d-flex min-width padding-40  gap-2" role="search">
+          <input class="form-control me-md-2" type="search" placeholder="Введите название для предоставления информации о заболевании" aria-label="Введите название и мы предоставим информацию">
+          <button class="btn-main" type="submit">Найти</button>
+        </form>
+      </div>
+        </div>
+        </div>
+        
+
+    </div>
+  
+  <div class="container-fluid align-baseline">
+      <section id="about">
+          <h2>О сайте</h2>
+          <p>Добро пожаловать в справочник заболеваний. На нашем сайте вы найдете подробную информацию
+             о различных заболеваниях, их симптомах, методах диагностики и лечения. Наша цель - 
+             предоставить надежные и полезные сведения для поддержания вашего здоровья и благополучия.</p>
+      </section>
+      <section>
+        <div class="container text-center">
+          <h3>Список Заболеваний</h3>
+          <div id="listDisease" class="list-group "></div>
+        </div>
+      </section>
+      
+  </div>
+    <footer class="container-fluid">
+        <p>&copy; 2023 Справочник заболеваний</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

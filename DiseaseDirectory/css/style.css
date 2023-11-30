@@ -1,0 +1,114 @@
+header {
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  opacity: 1.0;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  clear: both;  
+  text-align: center;
+  padding: 10px;
+  background-color: var(--secondary-color-variant);
+  color: var(--secondary-color);
+}
+
+#headerwrap{  
+  text-align: left;
+}
+
+.img-height{
+  max-height: 400px;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.position-right{
+  background-position: right top;
+}
+
+.icon{
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.icon:hover{
+  transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.nav-link:hover{
+  color: var(--primary-color-varian);
+}
+
+.landing-page-bd{
+  background-image: linear-gradient(#0f898f, #a9c9ca,#f0f0f0);
+  box-shadow: 0 0 10px #9e9e9e;
+}
+
+
+.div-card-with-title{
+  padding: 40px;
+  text-wrap: wrap;
+}
+
+.padding-40{
+  padding: 40px;
+}
+
+.min-width{
+  min-width: 200px;
+}
+
+.btn-main{
+  background-color: #119ea5;
+  border: #0f898f;
+  border-radius: 20%;
+  min-height: 40px;
+  min-width: 70px;
+  color: var(--secondary-color-variant);
+  font-weight: bold;
+}
+
+.btn-main:active{
+  background-color: var(--primary-color-varian);
+  box-shadow: 0 5px #f0f0f0;
+  transform: translateY(4px);
+}
+
+/* @media all and (max-width:1000px ){
+  #container-with-img-text {
+    display: flex;
+  }
+} */
+
+.btn-main:hover {background-color: #0f898f}
+
+.color-secondary-variant{
+  background-color: var(--secondary-color-variant);
+}
+
+.font-secondary-color{
+  color: var(--secondary-color);
+}
+
+.font-secondary-variant-color{
+  color: var(--secondary-color-variant);
+}
+
+:root{
+  --primary-color: #42BBC1;
+  --secondary-color:#b1b1b1;
+  --secondary-color-orange:#FFAC17;
+  --primary-color-varian: #2D8084;
+  --secondary-color-variant: #4E4E4E;
+  --secondary-color-variant-orange: #FF7900;
+  --dark-back: #222222;
+} 
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            background-image: url(img/florid-medicines-and-a-digital-thermometer.gif);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            backface-visibility: visible;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .risk-group {
+            font-weight: bold;
+            color: #e44d26;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <ul class="nav color-secondary-variant font-secondary-color nav-justified">
+        <li class="nav-item logo-name-scale-zoom  ">
+            <a class="nav-link active navbar-brand" aria-current="page" href="#">
+            <div class="container-fluid">
+                <img class="icon" src="img/icons8-plus-48.png" alt="Disease Directory" width="42" height="42">Справочник заболеваний</div>
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle font-secondary-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Страницы
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">О сайте</a></li>
+            <li><a class="dropdown-item" href="#">Список заболеваний</a></li>
+            <li><a class="dropdown-item" href="#">Список разделов</a></li>
+            <li><a class="dropdown-item" href="#">Скачать Справочник Заболеваний</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Войти как администратор</a></li>
+            </ul>
+        </li>
+        </ul>
+</header>
+
+<main>
+
+    <div class="container d-inline-flex">
+        <div id="diseaseName" class="text-md-center">
+        <h6 class="text-uppercase">Заболевание</h6>
+        </div>
+        <div id="diseaseImage">
+        <img src="img/florid-medicines-and-a-digital-thermometer.gif">   
+        </div>
+    </div>
+        <div class="container">
+            <div id="diseaseDefinition">
+                <h2 class="text-uppercase">Описание</h2>
+            </div>
+        </div>
+
+    <h2>Характеристики заболевания</h2>
+
+    <p><strong>Причины:</strong> Причины возникновения заболевания.</p>
+
+    <p><strong>Симптомы:</strong> Основные симптомы заболевания.</p>
+
+    <p><strong>Терапия:</strong> Методы лечения и рекомендации.</p>
+
+    <p><strong>Классификация:</strong> Классификация заболевания.</p>
+
+    <p><strong>Группа риска:</strong> <span class="risk-group">Группа риска для данного заболевания.</span></p>
+</main>
+
+<script src="disease.js"></script>
+</body>
+</html>
